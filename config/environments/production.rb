@@ -82,5 +82,6 @@ Rails.application.configure do
   end
 
   # Do not dump schema after migrations.
+  config.web_console.development_only = false
   config.active_record.dump_schema_after_migration = false
 end
