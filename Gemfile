@@ -69,4 +69,3 @@ gem 'mini_magick'
 group :production do
   gem 'unicorn'
 end
-gem 'web-console', '>= 3.3.0'
